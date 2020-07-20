@@ -9,10 +9,10 @@ The model has the aim of implementing the following:
 <p>COVID-2019 disease has been recognized as a global threat, and several studies are being conducted using various mathematical models,using machine learning methods and statistical methods to predict the probable progression of this epidemic. Therefore choosing the correct method is vital for an accurate estimation.</p>
 
 <p>
-  <b>Methodology</b> 
-The data is divided into its constituent components, namely, Confirmed Cases, Recovered Cases, and Deaths. Since the data has an increased trend, stationarity is enforced and the data is fit to a ARIMA model, after its AR , Lag terms and MA terms have been found using various techniques such as - Auto-correlation, Partial-autocorrelation, Augmented Dicky Fuller test, Akaike Information Criterion test, P-value test, Residual Analysis, Grid Search.<br>
+  <b>Methodology</b> <br>
+The data is divided into its constituent components, namely, Confirmed Cases, Recovered Cases, and Deaths. Since the data has an increased trend, stationarity is enforced and the data is fit to a ARIMA model, after its AR , Lag terms and MA terms have been found using various techniques such as - Auto-correlation, Partial-autocorrelation, Augmented Dicky Fuller test, Akaike Information Criterion test, P-value test, Residual Analysis, Grid Search.<br><br>
 Based on the selected values of AR and MA, a ARIMA model is created and data is fit. This ARIMA model is then used to make the predictions for the future. The predictions made by ARIMA are then fed into a pre-trained LSTM Network for removal of any non-linear residual error and white noise. The denoised output from the LSTM is the final prediction.
-To cross-validate our proposed model, S-I-R modelling and Polynomial Fitting shall also be performed to set a benchmark and compare the performance. <br>
+To cross-validate our proposed model, S-I-R modelling and Polynomial Fitting shall also be performed to set a benchmark and compare the performance. <br><br>
 The methodology for this project is divided into nine parts, namely,
 <li>Exploratory data analysis (EDA)</li>
 <li>Confirmatory data analysis (CDA) with SEIR Modelling Inferences</li>
@@ -22,4 +22,10 @@ The methodology for this project is divided into nine parts, namely,
 <li>Model building and training</li>
 <li>End Result</li>
   </p>
+  
+  <p>
+  For any queries you can reach me at: <i><b> pmishra_be17@thapar.edu</b></i><br>
+  For citations: <i><b>You can cite this repository as such.</b></i>
+  </p>
+  
 
